@@ -26,7 +26,7 @@ var CodeGen = require("fib-swagger").CodeGen;
 
 var file = "swagger/spec.json";
 var swagger = JSON.parse(fs.readFileSync(file, "UTF-8"));
-var tsSourceCode = CodeGen.getFibjstCode({
+var tsSourceCode = CodeGen.getFibjsCode({
   className: "Test",
   swagger: swagger
 });
