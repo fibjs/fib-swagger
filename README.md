@@ -15,7 +15,7 @@ fibjs --install fib-swagger
 ## cli
 
 ```bash
-fibjs node-modules/fib-swagger/lib/cli -c Test gen test.json test.js
+fibjs node_modules/fib-swagger/lib/cli -c Test gen test.json test.js
 ```
 
 ## Example Code
