@@ -1,0 +1,14 @@
+{
+  "name": "fib-swagger",
+  "version": "1.0.0",
+  "description": "Swagger to fibjs Codegen",
+  "repository": "",
+  "main": "lib/index.js",
+  "keywords": "",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "swagger-typescript-codegen": "^3.2.2",
+    "js-yaml": "^3.14.1"
+  }
+}
